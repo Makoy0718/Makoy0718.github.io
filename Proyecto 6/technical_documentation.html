@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset?"UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a href="#HTML_Basics" class="nav-link">HTML Basics</a>
+    <a href="#CSS_Fundamentals" class="nav-link">CSS Fundamentals</a>
+    <a href="#JavaScript_Intro" class="nav-link">JavaScript Intro</a>
+    <a href="#Responsive_Design" class="nav-link">Responsive Design</a>
+    <a href="#APIs" class="nav-link">APIs</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="HTML_Basics">
+      <header>HTML Basics</header>
+      <p>HTML stands for HyperText Markup Language.</p>
+      <p>HTML is the markup language that we use to structure and give meaning to our web content, for example defining paragraphs, headings, and data tables, or embedding images and videos in the page.</p>
+      <p>HTML elements are represented by tags.</p>
+      <p>Example of a basic HTML structure:</p>
+      <code>&lt;!DOCTYPE html&gt;</code>
+      <code>&lt;html&gt;&lt;/html&gt;</code>
+      <p>More HTML tags include</p>
+      <ul>
+        <li>&lt;head&gt;</li>
+        <li>&lt;body&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;a&gt;</li>
+        <li>&lt;div&gt;</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="CSS_Fundamentals">
+      <header>CSS Fundamentals</header>
+      <p>CSS stands for Cascading Style Sheets</p>
+      <p>CSS is a language of style rules that we use to apply styling to our HTML content, for example setting background colors and fonts, and laying out our content in multiple columns.</p>
+      <p>CSS can control the layout of multiple web pages all at once.</p>
+      <p>Example of CSS syntax:</p>
+      <code>el-selector {
+        propiedad-ejemplo: valor;
+        }
+      </code>
+      <p>Common CSS properties include:</p>
+      <ul>
+        <li>color</li>
+        <li>font-size</li>
+        <li>margin</li>
+        <li>padding</li>
+        <li>border</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="JavaScript_Intro">
+      <header>JavaScript Intro</header>
+      <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
+      <p>It is an essential part of web applications.</p>
+      <p>JavaScript can update and change both HTML and CSS.</p>
+      <p>Example of a JavaScript function:</p>
+      <code>
+        funcion mi_funcion() {
+          alert("Hello World!");
+        }
+      </code>
+      <p>JavaScript is often used for:</p>
+      <ul>
+        <li>Client-side scripting</li>
+        <li>Server-side programming</li>
+        <li>Mobile app development</li>
+        <li>Game development</li>
+        <li>Data visualization</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Responsive_Design">
+      <header>Responsive Design</header>
+      <p>It allows web pages to render well on a variety of devices and window or screen sizes.</p>
+      <p>Media queries are used to apply different styles for different devices.</p>
+      <p>Example media query:</p>
+      <code>
+        @media (max-width: 600px) { body { background-color: lightblue; } }
+      </code>
+      <p>Key components of responsive design include:</p>
+      <ul>
+        <li>Fluid grids</li>
+        <li>Flexible images</li>
+        <li>Media queries</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="APIs">
+      <header>APIs</header>
+      <p>API stands for Application Programming Interface.</p>
+      <p>An API allows different software programs to communicate with each other.</p>
+      <p>Web APIs provide access to web services.</p>
+      <p>Example of a simple API call:</p>
+      <code>fetch('https://api.example.com/data')</code>
+      <p>Common API methods include:</p>
+      <ul>
+        <li>GET</li>
+        <li>POST</li>
+        <li>PUT</li>
+        <li>DELETE</li>
+        <li>PATCH</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
