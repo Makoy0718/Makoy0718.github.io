@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out this form with your information.</p>
+
+  <form id="survey-form">
+    
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" type="email" placeholder="Enter your email" required>
+
+    <label id="number-label" for="number">Age:</label>
+    <input id="number" type="number" placeholder="Enter your age" min="10" max="100" required>
+
+    <label for="dropdown">Which option best describes your current role?</label>
+    <select id="dropdown" name="role" required>
+      <option value="">Select an option</option>
+      <option value="student">Student</option>
+      <option value="full-time-job">Full Time Job</option>
+    </select>
+
+    <label>How did you hear about us?</label>
+    <label><input type="radio" name="source" value="friends" required> Friends</label>
+    <label><input type="radio" name="source" value="internet"> Internet</label>
+
+    <label>What are your interests? (Select all that apply)</label>
+    <label><input type="checkbox" name="interests" value="coding"> Coding</label>
+    <label><input type="checkbox" name="interests" value="sports"> Sports</label>
+
+    <label for="comments">Any comments or suggestions?</label>
+    <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+
+    <button id="submit" type="submit">Submit</button>
+    
+  </form>
+
+</body>
+</html>
