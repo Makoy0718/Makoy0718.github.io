@@ -1,25 +1,25 @@
 * {
     box-sizing: border-box;
   }
-  
-  html {
+
+html {
     scroll-behavior: smooth;
   }
   
-  body {
-    font-family: "Noto Sans", sans-serif;
+body {
+    font-family: sans-serif;
     margin: 0;
     height: 100vh;
     overflow-x: hidden;
     background-color: rgb(21, 18, 41);
   }
   
-  a {
+a {
     text-decoration: none;
     color: white;
   }
   
-  .navbar {
+.navbar {
     display: flex;
     width: 100vw;
     height: 10vh;
@@ -29,7 +29,7 @@
     top: 0;
   }
   
-  .navbar ul {
+.navbar ul {
     display: flex;
     justify-content: flex-start;
     list-style: none;
@@ -37,12 +37,12 @@
     align-items: center;
   }
   
-  .navbar ul li {
+.navbar ul li {
     margin: 0 20px;
     cursor: pointer;
   }
   
-  .home {
+.home {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,17 +52,17 @@
     text-align: center;
   }
 
-  .pfp {
+.pfp {
     width: 600px;
     height: 600px;
   }
   
-  .home h1 {
+.home h1 {
     font-size: 50px;
     font-weight: 900;
   }
   
-  .about {
+.about {
     background-color: #140b46;
     width: 100vw;
     display: flex;
@@ -74,7 +74,7 @@
     color: white;
   }
   
-  .about-text {
+.about-text {
     max-width: 800px;
     line-height: 1.6;
     padding: 0 20px;
@@ -82,7 +82,7 @@
   }
   
  
-  .projects {
+.projects {
     color: white;
     width: 100vw;
     display: flex;
@@ -93,25 +93,25 @@
     padding: 2rem 1rem;
   }
   
-  .project {
+.project {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 70px;
   }
   
-  .project-item {
+.project-item {
     max-width: 300px;
     text-align: center;
   }
   
-  .project-image {
+.project-image {
     width: 100%;
     cursor: pointer;
   }
   
 
-  .contact {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,15 +122,15 @@
     color: white;
   }
   
-  .contact h1 {
+.contact h1 {
     margin: 10px 0;
   }
   
-  .contact h3 {
+.contact h3 {
     margin: 20px 0;
   }
   
-  .email-button {
+.email-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,13 +143,12 @@
     box-shadow: 0 0 20px #888888;
   }
   
-  .email-button:hover {
+.email-button:hover {
     background-color: white;
     color: black;
   }
-  
-  /* Social Icons */
-  .social-icons {
+
+.social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +158,7 @@
     height: 70px;
   }
   
-  .social-icons a {
+.social-icons a {
     display: flex;
     justify-content: center;
     align-items: center;
